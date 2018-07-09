@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicMemoryReadFile", "DynamicMemoryReadFile\DynamicMemoryReadFile.vcxproj", "{F2B8B273-9030-44F6-B321-6BCDDD943582}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.DynamicMemoryReadFile", "DynamicMemoryReadFile\DynamicMemoryReadFile.vcxproj", "{F2B8B273-9030-44F6-B321-6BCDDD943582}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.DynamicallyAllocatedArrays", "PointersAndReferences\PointersAndReferences.vcxproj", "{EA38BD78-9299-4B5A-B8AF-283CB502B634}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.DynamicallyAllocatedArrays", "PointersAndReferences\PointersAndReferences.vcxproj", "{EA38BD78-9299-4B5A-B8AF-283CB502B634}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.Pointers", "Pointers\Pointers.vcxproj", "{447970D9-C079-486A-9F34-975361AF8364}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.PointersToStructures", "Pointers2\Pointers2.vcxproj", "{A46FD266-CBED-41E9-A06A-42FC43485598}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.DynamicallyAllocatedVariables", "DynamicallyAllocatedVariables\DynamicallyAllocatedVariables.vcxproj", "{DA4645E0-2A28-4659-8309-99F62AF53DA0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.DynamicallyAllocatedVariables", "DynamicallyAllocatedVariables\DynamicallyAllocatedVariables.vcxproj", "{DA4645E0-2A28-4659-8309-99F62AF53DA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.PointersAsFunctionParameters", "PointersAsFunctionParameters\PointersAsFunctionParameters.vcxproj", "{7583003A-B9A3-40A9-9C84-0F901AD771F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.Exercise.ReadFile", "Exercise.ReadFile\Exercise.ReadFile.vcxproj", "{B9E9DF2A-97D1-4591-8665-76621CA6A48B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.Exercise.SecondDegreeEquationRoots", "Exercise.SecondDegreeEquationRoots\SecondDegreeEquationRoots.vcxproj", "{025E6BB9-6950-4623-BE9F-038DF73FB923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,30 @@ Global
 		{DA4645E0-2A28-4659-8309-99F62AF53DA0}.Release|x64.Build.0 = Release|x64
 		{DA4645E0-2A28-4659-8309-99F62AF53DA0}.Release|x86.ActiveCfg = Release|Win32
 		{DA4645E0-2A28-4659-8309-99F62AF53DA0}.Release|x86.Build.0 = Release|Win32
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Debug|x64.ActiveCfg = Debug|x64
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Debug|x64.Build.0 = Debug|x64
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Debug|x86.Build.0 = Debug|Win32
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Release|x64.ActiveCfg = Release|x64
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Release|x64.Build.0 = Release|x64
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Release|x86.ActiveCfg = Release|Win32
+		{7583003A-B9A3-40A9-9C84-0F901AD771F7}.Release|x86.Build.0 = Release|Win32
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Debug|x64.ActiveCfg = Debug|x64
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Debug|x64.Build.0 = Debug|x64
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Debug|x86.Build.0 = Debug|Win32
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Release|x64.ActiveCfg = Release|x64
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Release|x64.Build.0 = Release|x64
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Release|x86.ActiveCfg = Release|Win32
+		{B9E9DF2A-97D1-4591-8665-76621CA6A48B}.Release|x86.Build.0 = Release|Win32
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Debug|x64.ActiveCfg = Debug|x64
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Debug|x64.Build.0 = Debug|x64
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Debug|x86.ActiveCfg = Debug|Win32
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Debug|x86.Build.0 = Debug|Win32
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Release|x64.ActiveCfg = Release|x64
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Release|x64.Build.0 = Release|x64
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Release|x86.ActiveCfg = Release|Win32
+		{025E6BB9-6950-4623-BE9F-038DF73FB923}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
