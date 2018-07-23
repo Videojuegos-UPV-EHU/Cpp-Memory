@@ -23,7 +23,7 @@
     <ProjectGuid>{B9E9DF2A-97D1-4591-8665-76621CA6A48B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ExerciseReadFile</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>09.Exercise.ReadFile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
